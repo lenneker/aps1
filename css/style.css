@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+background-color: aqua;
+padding: 15px;
+text-align: center;
+}
+
+.menu a{
+
+}
+
+body {
+    background-color: #e6e6e6;
+}
+
+.branco{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #004aad;
+}
+
+.menu, .logo {
+    padding: 10px;
+}
+
+.menu a {
+    text-decoration: none;
+    padding: 7px 11px ;
+}
+
+.menu a:hover {
+    background-color: black;
+    color: aqua;
+}
+
+.container {
+    width: 920px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.posts {
+    width: 660px;
+    float: left;
+}
+
+.post {
+    padding: 20px;
+    margin-bottom: 10px;
+    background-color: white;
+
+}
+
+.post p {
+    margin: 10px 0;
+}
+
+.data-post {
+    font-size: 0.8em;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.barra-lateral {
+    width: 240px;
+    float: right;
+}
+
+.conteudo-lateral {
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.conteudo-lateral h3 {
+    background-color: aqua;
+    color: black;
+    padding: 5px;
+}
+.post-destaque{
+    font-size: 0.8em;
+    padding: 5px;
+    border-bottom: 1px solid lightgray;
+}
+
+.post-destaque:last-child{
+    border: none;
+}
+
+.footer {
+    clear: both;
+    background-color: aqua;
+    padding: 15px;
+
+}
+
+.footer p {
+    color: black;
+    text-align: center;
+}
